@@ -1,0 +1,20 @@
+*
+
+!/.gitignore
+!/index.html
+!/zh.html
+!/robots.txt
+!/sitemap.xml
+!/DOSA-LOGO.png
+!/DOSA Bricks.xlsx
+
+!/assets/
+/assets/*
+!/assets/site.css
+!/assets/site.js
+
+!/Brick/
+!/Brick/*.pdf
+
+!/POL/
+!/POL/*.pdf
