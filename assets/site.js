@@ -99,6 +99,22 @@ function initLibrary() {
   renderTable();
 }
 
+function initLangDropdown() {
+  const dropdown = document.getElementById("langDropdown");
+  if (!dropdown) return;
+  const button = dropdown.querySelector("button");
+  button.addEventListener("click", (e) => {
+    e.stopPropagation();
+    dropdown.classList.toggle("open");
+  });
+  document.addEventListener("click", (e) => {
+    if (!dropdown.contains(e.target)) {
+      dropdown.classList.remove("open");
+    }
+  });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   initLibrary();
+  initLangDropdown();
 });

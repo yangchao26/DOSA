@@ -9,4 +9,12 @@
     <loc>https://www.dosapower.org/zh.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dosapower.org/"/>
   </url>
+  <url>
+    <loc>https://www.dosapower.org/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.dosapower.org/about-zh.html"/>
+  </url>
+  <url>
+    <loc>https://www.dosapower.org/about-zh.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dosapower.org/about.html"/>
+  </url>
 </urlset>
